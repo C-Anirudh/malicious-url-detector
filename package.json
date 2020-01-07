@@ -1,0 +1,28 @@
+{
+  "name": "malicious-url-detector",
+  "version": "1.0.0",
+  "description": "A chrome extension to detects and warns users about malicious urls",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Anirudh/malicious-url-detector.git"
+  },
+  "keywords": [
+    "chrome"
+  ],
+  "author": "C. Anirudh",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/C-Anirudh/malicious-url-detector/issues"
+  },
+  "homepage": "https://github.com/C-Anirudh/malicious-url-detector#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^2.0.0"
+  }
+}

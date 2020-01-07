@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "name": "M.U.D",
+    "description": "A chrome extension that detects and warns users about malicious URLs",
+    "browser_action": {
+        "default_icon": "assets/img/48.png",
+        "default_title": "M.U.D",
+        "default_popup": "views/popup.html"
+    },
+    "icons": {
+        "16": "assets/img/16.png",
+        "48": "assets/img/48.png",
+        "128": "assets/img/128.png"
+    },
+    "permissions": [
+        "<all_urls>",
+        "storage"
+    ]
+}
